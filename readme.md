@@ -15,7 +15,6 @@ To install and run the auction website, follow these steps:
 
 The repository's folder structure is as follows:
 
-- `Backup`: Contains backup files of the project.
 - `PHPMailer-master`: Includes the PHPMailer library for sending emails.
 - `PHPMailer`: Contains the PHPMailer library (possibly an older version).
 - `css`: Contains the CSS files for styling the website.
