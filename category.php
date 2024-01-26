@@ -86,7 +86,7 @@ if(isset($_GET['editid']))
 		<?php
 		if(isset($_GET['editid']))
 		{
-			if($rsedit[category_icon] == "")
+			if($rsedit[$category_icon] == "")
 			{
 				echo "<img src='img/No-Image-Available.png' style='width: 200px;height:250px;'>";
 			}

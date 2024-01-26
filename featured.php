@@ -65,9 +65,15 @@ include("header.php");
 					$arr_pro_img = unserialize($rsproduct['product_image']);
 					$imgname = "images/noimage.gif"; // Default image
 		
-					if (is_array($arr_pro_img) && !empty($arr_pro_img[0])) {
-						$imgname = "imgproduct/" . $arr_pro_img[0];
+					// if (is_array($arr_pro_img) && !empty($arr_pro_img[0])) {
+					// 	$imgname = "imgproduct/" . $arr_pro_img[0];
+					// }
+
+					if (!empty($rsproduct[10])) {
+						$imgname = "imgproduct/" . $rsproduct[10];
 					}
+
+
 					?>
 
 					<div class="col-md-4">
